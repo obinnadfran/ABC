@@ -50,6 +50,24 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm ike.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm ike.Designer.cs">
+      <DependentUpon>frm ike.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm obi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm obi.Designer.cs">
+      <DependentUpon>frm obi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm osi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm osi.Designer.cs">
+      <DependentUpon>Frm osi.cs</DependentUpon>
+    </Compile>
     <Compile Include="index.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +76,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm ike.resx">
+      <DependentUpon>frm ike.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm obi.resx">
+      <DependentUpon>frm obi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm osi.resx">
+      <DependentUpon>Frm osi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="index.resx">
       <DependentUpon>index.cs</DependentUpon>
     </EmbeddedResource>
